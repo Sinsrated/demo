@@ -6,47 +6,47 @@ const Gallery = () => {
 
   const images = [
     {
-      src: '/gallery/2024/baby/photo1.jpg',
+      src: '/gallery/chrome4.jpg',
       alt: 'Students in classroom learning',
       category: 'Classroom'
     },
     {
-      src: '/gallery/2024/middle/photo3.jpg',
+      src: '/gallery/chrome1.jpg',
       alt: 'Interactive learning session',
       category: 'Learning'
     },
     {
-      src: '/gallery/2024/baby/photo2.jpg',
+      src: '/gallery/chrome5.jpg',
       alt: 'Children playing outdoors',
       category: 'Playground'
     },
     {
-      src: '/gallery/2024/baby/photo3.jpg',
+      src: '/gallery/chrome13.jpg',
       alt: 'Art and craft activities',
       category: 'Activities'
     },
     {
-      src: '/gallery/2024/middle/photo1.jpg',
+      src: '/gallery/chrome6.jpg',
       alt: 'Science experiment',
       category: 'Science'
     },
     {
-      src: '/gallery/2024/middle/photo2.jpg',
+      src: '/gallery/chrome12.jpg',
       alt: 'Music class',
       category: 'Music'
     },
     {
-      src: '/gallery/2024/p7/photo1.jpg',
+      src: '/gallery/chrome8.jpg',
       alt: 'Library reading time',
       category: 'Library'
     },
     {
-      src: '/gallery/2024/p6/photo1.jpg',
+      src: '/gallery/chrome15.jpg',
       alt: 'Sports activities',
       category: 'Sports'
     },
     {
-      src: '/gallery/2024/baby/photo1.jpg',
+      src: '/gallery/chrome7.jpg',
       alt: 'Group activities',
       category: 'Activities'
     }
@@ -65,7 +65,7 @@ const Gallery = () => {
   };
 
   return (
-    <section id="gallery" className="py-20 bg-white">
+    <section id="gallery" className="py-20 bg-[#D6C7B2]/90">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-gray-900 mb-4">School Gallery</h2>

@@ -29,13 +29,13 @@ const Footer = () => {
           <div className="space-y-6">
             <div className="flex items-center space-x-3">
                <img 
-              src="/logo.jpg" 
-              alt="Bright Stars Logo" 
-              className="w-12 h-12 object-contain bg-white"
+              src="/logo.png" 
+              alt=" Ventures Early Learning Centre" 
+              className="w-12 h-12 object-contain "
             />
               <div>
-                <h3 className="text-2xl font-bold">Bright Stars</h3>
-                <p className="text-orange-400 font-medium">Nur & Pri School</p>
+                <h3 className="text-2xl font-bold"> Ventures</h3>
+                 <p className="text-orange-400 font-medium">Early Learning centre</p> 
               </div>
               <div className="relative">
                 <Star className="w-10 h-10 text-yellow-500 fill-current" />
@@ -97,18 +97,18 @@ const Footer = () => {
           <p className="flex items-center gap-2 text-gray-300">
            <FaMapMarkerAlt size={22} />
           <a 
-          href="https://maps.app.goo.gl/juHUhYekypRGj7Mv5" 
+          href="https://maps.app.goo.gl/xmGkpV9qbFPCkTw46" 
           target="_blank" 
           rel="noopener noreferrer"
            className="hover:text-white text-gray-300"
           >
-           Wankulukuku, Kabowa
+           Kigo-Rd, Lweeza
          </a>
           </p>
             <p className="flex items-center gap-2 text-gray-300">
               <FaPhoneAlt size={22} />
                <a href="tel:0200 907934" className="hover:text-white text-gray-300">
-                   0200 907934
+                   0756 016850
                </a>
            </p>
 
@@ -116,7 +116,7 @@ const Footer = () => {
                <p className="flex items-center gap-2 text-gray-300">
                  <FaEnvelope size={22} />
                    <a href="mailto:info@brightstars.ac.ug" className="hover:text-white text-gray-300">
-                     info@brightstars.ac.ug
+                     info@venturesearlylearningcentre.ac.ug
                     </a>
                  </p>
 
@@ -133,7 +133,7 @@ const Footer = () => {
         <div className="border-t border-gray-800 mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <p className="text-gray-400 text-sm">
-              © 2025 Bright Stars Nur & Pri School. All rights reserved.
+              © 2025  Ventures Early Learning Centre. All rights reserved.
             </p>
             <div className="flex space-x-6 text-sm">
               <a href="#" className="text-gray-400 hover:text-white transition-colors">Privacy Policy</a>
