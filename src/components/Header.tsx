@@ -15,7 +15,7 @@ const Header = () => {
   ];
 
   return (
-    <header className="bg-[#D6C7B2] shadow-lg sticky top-0 z-50">
+    <header className="bg-white shadow-lg sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-4">
           {/* Logo */}
@@ -23,13 +23,13 @@ const Header = () => {
           <div className="flex items-center space-x-3">
             <a href='/' className=''>
             <img 
-              src="/logo.png" 
-              alt=" Ventures Early Learning Centre" 
+              src="/logo.jpg" 
+              alt="Bright Stars Logo" 
               className="w-12 h-12 object-contain"
             /></a>
             <div>
-              <h1 className="text-2xl font-bold text-gray-500"> Ventures Early Learning Centre</h1>
-              {/* <p className="text-sm text-yellow-400 font-medium">Nur & Pri School</p> */}
+              <h1 className="text-2xl font-bold text-red-500">Bright Stars</h1>
+              <p className="text-sm text-yellow-400 font-medium">Nur & Pri School</p>
             </div>
           </div>
 

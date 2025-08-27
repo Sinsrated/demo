@@ -5,13 +5,9 @@ import { Link } from 'lucide-react';
 
 
 const Hero = () => {
-
-  const navItems =[
-   { name: 'Admission', href: '#admission' } 
-  ];
   
   return (
-    <section id="home" className="relative bg-gradient-to-br from-red-200 via-white to-[#D6C7B2] py-20">
+    <section id="home" className="relative bg-gradient-to-br from-[#D6C7B2] via-white to-orange-50 py-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Left Content */}
@@ -22,8 +18,8 @@ const Hero = () => {
                 <span className="text-orange-600 font-semibold text-lg">Welcome to Excellence</span>
               </div>
               <h1 className="text-5xl lg:text-6xl font-bold text-gray-900 leading-tight">
-               Ventures Early Learning Centre
-                {/* <span className="block text-red-500">Nur & Pri School</span> */}
+              Bright Stars
+                 <span className="block text-red-500">Nur & Pri School</span>
               </h1>
               <p className="text-xl text-gray-600 leading-relaxed">
                 Your journey to excellence in education starts here
@@ -35,14 +31,14 @@ const Hero = () => {
 
             <div className="flex flex-col sm:flex-row gap-4">
              
-              <a
-                href="#admission"
-                className="bg-red-400 text-white px-8 py-4 rounded-full font-semibold hover:bg-red-500 transition-colors duration-200 flex items-center justify-center space-x-2"
-              >
+              <button 
+               
+               className="bg-red-500 text-white px-8 py-4 rounded-full font-semibold hover:bg-red-200 transition-colors duration-200 flex items-center justify-center space-x-2">
+                
                 <span>Apply for Admission</span>
                 <ArrowRight className="w-5 h-5" />
-              </a>
-           
+                
+              </button>
             </div>
 
             {/* Stats */}
@@ -73,10 +69,10 @@ const Hero = () => {
 
           {/* Right Content - Hero Image */}
           <div className="relative">
-            <div className="bg-gradient-to-br from-red-200 to-[#D6C7B2] rounded-3xl p-8 transform rotate-3 shadow-2xl">
-              <div className="bg-gray-300 rounded-2xl p-6 transform -rotate-3">
+            <div className="bg-gradient-to-br from-red-400 to-yellow-400 rounded-3xl p-8 transform rotate-3 shadow-2xl">
+              <div className="bg-white rounded-2xl p-6 transform -rotate-3">
                 <img
-                  src="/gallery/photo4.jpg?auto=compress&cs=tinysrgb&w=800"
+                  src="/gallery/2024/p6/photo1.jpg?auto=compress&cs=tinysrgb&w=800"
                   alt="Happy children learning"
                   className="w-full h-80 object-cover rounded-xl"
                 />

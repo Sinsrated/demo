@@ -47,7 +47,7 @@ const Admission = () => {
     {
       step: 4,
       title: 'Enrollment',
-      description: 'Complete enrollment process and welcome to  Ventures Early Learning Centre!',
+      description: 'Complete enrollment process and welcome to Bright Stars!',
       icon: CheckCircle
     }
   ];
@@ -69,12 +69,12 @@ const Admission = () => {
   ];
 
   return (
-    <section id="admission" className="py-20 bg-gray-200">
+    <section id="admission" className="py-20 bg-gradient-to-br from-gray-50 to-red-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-gray-900 mb-4">Admission Information</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Join the  Ventures Early Learning Centre family! We welcome students who are eager to learn and grow in our nurturing environment.
+            Join the Bright Stars family! We welcome students who are eager to learn and grow in our nurturing environment.
           </p>
         </div>
 
@@ -211,7 +211,7 @@ const Admission = () => {
 
               <button
                 type="submit"
-                className="w-full bg-[#D6C7B2] text-white py-3 px-6 rounded-lg font-semibold hover:bg-red-700 transition-colors duration-200"
+                className="w-full bg-red-600 text-white py-3 px-6 rounded-lg font-semibold hover:bg-red-700 transition-colors duration-200"
               >
                 Submit Application
               </button>
@@ -242,11 +242,11 @@ const Admission = () => {
             <div className="text-center">
               <div className="bg-green-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                  <a
-    href="https://maps.app.goo.gl/xmGkpV9qbFPCkTw46">
+    href="https://maps.app.goo.gl/juHUhYekypRGj7Mv5">
                 <MapPin className="w-8 h-8 text-green-600" /></a>
               </div>
               <h4 className="font-semibold text-gray-900 mb-2">Address</h4>
-              <p className="text-gray-600">Kigo-Rd, Lweeza</p>
+              <p className="text-gray-600">Wankulukuku, Kabowa</p>
             </div>
             <div className="text-center">
               <div className="bg-purple-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">

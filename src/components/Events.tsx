@@ -16,7 +16,7 @@ const Events = () => {
     {
       date: '2025-08-22',
       time: '10:00 AM',
-      title: 'Science Fair 2025',
+      title: 'Science Fair 2024',
       description: 'Students showcase their innovative science projects and experiments.',
       location: 'School Auditorium',
       attendees: 'All students & parents',
@@ -46,7 +46,7 @@ const Events = () => {
     {
       date: '2024-09-15',
       time: '9:30 AM',
-      title: 'Sports Day 2025',
+      title: 'Sports Day 2024',
       description: 'Annual sports competition with various athletic events and fun activities.',
       location: 'Sports Ground',
       attendees: 'Students & Families',
@@ -54,7 +54,7 @@ const Events = () => {
       color: 'bg-red-500'
     },
     {
-      date: '202-09-22',
+      date: '2024-09-22',
       time: '6:00 PM',
       title: 'Spring Concert',
       description: 'Musical performances by our talented students showcasing their artistic skills.',
@@ -76,7 +76,7 @@ const Events = () => {
   };
 
   return (
-    <section id="events" className="py-20 bg-[#D6C7B2]">
+    <section id="events" className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-gray-900 mb-4">Upcoming Events</h2>

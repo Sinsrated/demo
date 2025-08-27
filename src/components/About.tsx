@@ -1,6 +1,5 @@
 import React from 'react';
 import { Heart, Target, Award, Users, MapPin, Handshake, ShieldCheck, Star, Smile, Compass, Lightbulb, Group, Globe, Circle } from 'lucide-react';
-import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt, FaFacebook, FaTwitter, FaInstagram } from "react-icons/fa"
 
 const About = () => {
   const values = [
@@ -40,11 +39,11 @@ const About = () => {
   ];
 
   return (
-    <section id="about" className="py-20 bg-[#D6C7B2]/90">
+    <section id="about" className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Intro */}
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-gray-900 mb-4">About  Ventures</h2>
+          <h2 className="text-4xl font-bold text-gray-900 mb-4">About Bright Stars</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             For over 15 years, we've been dedicated to providing exceptional early childhood and primary education, 
             fostering creativity, critical thinking, and character development in every student.
@@ -56,7 +55,7 @@ const About = () => {
           <div className="space-y-6">
             <h3 className="text-3xl font-bold text-gray-900">Our Story</h3>
             <p className="text-lg text-gray-600 leading-relaxed">
-               Ventures Early Learning Centre was established with a simple yet powerful vision: 
+              Bright Stars Nur & Pri School was established with a simple yet powerful vision: 
               to create an educational environment where children could flourish academically, socially, 
               and emotionally. We started with a small group of students and have grown to become one of 
               the most trusted educational institutions in the community.
@@ -76,8 +75,8 @@ const About = () => {
 
           <div className="relative">
             <img
-              src="/gallery/photo3.jpg?auto=compress&cs=tinysrgb&w=800"
-              alt=" Ventures students engaged in classroom learning"
+              src="/gallery/2024/baby/photo1.jpg?auto=compress&cs=tinysrgb&w=800"
+              alt="Bright Stars students engaged in classroom learning"
               className="w-full h-96 object-cover rounded-2xl shadow-xl"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-blue-900/20 to-transparent rounded-2xl"></div>
@@ -120,14 +119,10 @@ const About = () => {
     href="https://maps.app.goo.gl/xmGkpV9qbFPCkTw46"
     target="_blank"
     rel="noopener noreferrer"
-    className="mt-6 inline-block bg-red-500 text-white px-6 py-3 rounded-full font-semibold hover:bg-red-200 transition-colors duration-200"
+    className="mt-6 inline-block bg-red-500 text-white px-6 py-3 rounded-full font-semibold hover:bg-red-600 transition-colors duration-200"
   >
     Open in Google Maps
   </a>
-  
-
-                   
-  
 </div>
 
 

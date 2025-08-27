@@ -56,12 +56,10 @@ const WhyChoose = () => {
   ];
 
   return (
-    <section id="why-choose" className="py-20 
-    bg-[#D6C7B2]/90 
-    ">
+    <section id="why-choose" className="py-20 bg-gradient-to-br from-gray-500/70 to-red-50/70">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-gray-900 mb-4">Why Choose Ventures Early Learning Centre?</h2>
+          <h2 className="text-4xl font-bold text-gray-900 mb-4">Why Choose Bright Stars?</h2>
           <p className="text-xl text-gray-900 max-w-3xl mx-auto">
             Discover what makes us the preferred choice for parents seeking quality education for their children.
           </p>
@@ -88,7 +86,7 @@ const WhyChoose = () => {
            <div className="space-y-3 text-center">
   {/* Circle with clickable MapPin */}
   <a
-    href="https://maps.app.goo.gl/xmGkpV9qbFPCkTw46"
+    href="https://maps.app.goo.gl/juHUhYekypRGj7Mv5"
     target="_blank"
     rel="noopener noreferrer"
     className="bg-orange-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto hover:bg-yellow-200 transition"
@@ -98,7 +96,7 @@ const WhyChoose = () => {
 
   {/* Text below */}
   <h4 className="font-semibold text-gray-900">Location</h4>
-  <p className="text-gray-600">Kigo-Rd, Lweeza</p>
+  <p className="text-gray-600">Wankulukuku, Kabowa</p>
 </div>
 
             <div className="space-y-3">
@@ -110,7 +108,7 @@ const WhyChoose = () => {
                 </a>
               </div>
               <h4 className="font-semibold text-gray-900">Phone</h4>
-              <p className="text-gray-600">0756 016850</p>
+              <p className="text-gray-600">0200 907934</p>
             </div>
             <div className="space-y-3">
               <div className="bg-green-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto">
@@ -120,7 +118,7 @@ const WhyChoose = () => {
                 </a>
               </div>
               <h4 className="font-semibold text-gray-900">Email</h4>
-              <p className="text-gray-600">info@venturesearlylearningcentre.ac.ug</p>
+              <p className="text-gray-600">info@brightstars.ac.ug</p>
             </div>
           </div>
         </div>
